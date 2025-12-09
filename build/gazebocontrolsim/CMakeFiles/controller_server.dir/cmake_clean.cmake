@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/controller_server.dir/src/controller_server.cpp.o"
-  "/home/qi/ws_MutiFingerHand/devel/lib/gazebocontrolsim/controller_server.pdb"
-  "/home/qi/ws_MutiFingerHand/devel/lib/gazebocontrolsim/controller_server"
+  "CMakeFiles/controller_server.dir/src/controller_server.cpp.o.d"
+  "controller_server"
+  "controller_server.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

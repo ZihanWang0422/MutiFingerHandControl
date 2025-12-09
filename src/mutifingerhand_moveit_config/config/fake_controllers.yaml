@@ -1,68 +1,97 @@
-controller_list:
-  - name: fake_finger1_controller
-    joints:
-      - J11
-      - J12
-      - J13
-      - J14
-      - J15
-  - name: fake_finger2_controller
-    joints:
-      - J21
-      - J22
-      - J23
-      - J24
-  - name: fake_finger3_controller
-    joints:
-      - J31
-      - J32
-      - J33
-      - J34
-  - name: fake_finger4_controller
-    joints:
-      - J41
-      - J42
-      - J43
-      - J44
-  - name: fake_finger5_controller
-    joints:
-      - J51
-      - J52
-      - J53
-      - J54
-  - name: fake_fingertip1_controller
-    joints:
-      - J15
-  - name: fake_fingertip2_controller
-    joints:
-      - J24
-  - name: fake_fingertip3_controller
-    joints:
-      - J34
-  - name: fake_fingertip4_controller
-    joints:
-      - J44
-  - name: fake_fingertip5_controller
-    joints:
-      - J54
-initial:  # Define initial robot poses.
-  - group: finger1
-    pose: homefinger1
-  - group: finger2
-    pose: homefinger2
-  - group: finger3
-    pose: homefinger3
-  - group: finger4
-    pose: homefinger4
-  - group: finger5
-    pose: homefinger5
-  - group: fingertip1
-    pose: homefingertip1
-  - group: fingertip2
-    pose: homefingertip2
-  - group: fingertip3
-    pose: homefingertip3
-  - group: fingertip4
-    pose: homefingertip4
-  - group: fingertip5
-    pose: homefingertip5
+controller_names:
+  - fake_finger1_controller
+  - fake_finger2_controller
+  - fake_finger3_controller
+  - fake_finger4_controller
+  - fake_finger5_controller
+  - fake_fingertip1_controller
+  - fake_fingertip2_controller
+  - fake_fingertip3_controller
+  - fake_fingertip4_controller
+  - fake_fingertip5_controller
+
+fake_finger1_controller:
+  type: FollowJointTrajectory
+  action_ns: follow_joint_trajectory
+  default: true
+  joints:
+    - J11
+    - J12
+    - J13
+    - J14
+    - J15
+
+fake_finger2_controller:
+  type: FollowJointTrajectory
+  action_ns: follow_joint_trajectory
+  default: true
+  joints:
+    - J21
+    - J22
+    - J23
+    - J24
+
+fake_finger3_controller:
+  type: FollowJointTrajectory
+  action_ns: follow_joint_trajectory
+  default: true
+  joints:
+    - J31
+    - J32
+    - J33
+    - J34
+
+fake_finger4_controller:
+  type: FollowJointTrajectory
+  action_ns: follow_joint_trajectory
+  default: true
+  joints:
+    - J41
+    - J42
+    - J43
+    - J44
+
+fake_finger5_controller:
+  type: FollowJointTrajectory
+  action_ns: follow_joint_trajectory
+  default: true
+  joints:
+    - J51
+    - J52
+    - J53
+    - J54
+
+fake_fingertip1_controller:
+  type: FollowJointTrajectory
+  action_ns: follow_joint_trajectory
+  default: true
+  joints:
+    - J15
+
+fake_fingertip2_controller:
+  type: FollowJointTrajectory
+  action_ns: follow_joint_trajectory
+  default: true
+  joints:
+    - J24
+
+fake_fingertip3_controller:
+  type: FollowJointTrajectory
+  action_ns: follow_joint_trajectory
+  default: true
+  joints:
+    - J34
+
+fake_fingertip4_controller:
+  type: FollowJointTrajectory
+  action_ns: follow_joint_trajectory
+  default: true
+  joints:
+    - J44
+
+fake_fingertip5_controller:
+  type: FollowJointTrajectory
+  action_ns: follow_joint_trajectory
+  default: true
+  joints:
+    - J54

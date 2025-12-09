@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pose_control.dir/src/pose_control.cpp.o"
-  "/home/qi/ws_MutiFingerHand/devel/lib/gazebocontrolsim/pose_control.pdb"
-  "/home/qi/ws_MutiFingerHand/devel/lib/gazebocontrolsim/pose_control"
+  "CMakeFiles/pose_control.dir/src/pose_control.cpp.o.d"
+  "pose_control"
+  "pose_control.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
